@@ -12,7 +12,7 @@ npm install --save-dev @uvarovag/prettier-config prettier
 
 ## Usage
 
-### Step 1: Create a .prettierrc file
+### Step 1: Create a ```.prettierrc``` file
 
 ```json
 "@uvarovag/prettier-config"
