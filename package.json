@@ -1,0 +1,29 @@
+{
+    "name": "@uvarovag/prettier-config",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "login": "npm login",
+        "publish": "npm publish --access public",
+        "fix": "npm pkg fix"
+    },
+    "keywords": [
+        "prettier",
+        "prettier-config",
+        "code-style",
+        "formatting",
+        "shared-config",
+        "coding-standards"
+    ],
+    "author": "@uvarovag",
+    "license": "MIT",
+    "description": "prettier-config",
+    "homepage": "https://github.com/uvarovag/prettier-config/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/uvarovag/prettier-config.git"
+    },
+    "peerDependencies": {
+        "prettier": "^3.4.1"
+    }
+}
