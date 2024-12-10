@@ -1,6 +1,6 @@
 {
     "name": "@uvarovag/prettier-config",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -18,7 +18,7 @@
     ],
     "author": "@uvarovag",
     "license": "MIT",
-    "description": "prettier-config",
+    "description": "Shared Prettier configuration for TypeScript and React projects",
     "homepage": "https://github.com/uvarovag/prettier-config/blob/master/README.md",
     "repository": {
         "type": "git",

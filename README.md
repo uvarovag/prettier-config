@@ -1,6 +1,6 @@
 # prettier-config
 
-A shared Prettier configuration for TypeScript and React projects.
+Shared Prettier configuration for TypeScript and React projects.
 
 ## Installation
 
