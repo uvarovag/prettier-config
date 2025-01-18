@@ -1,12 +1,12 @@
 {
     "name": "@uvarovag/prettier-config",
-    "version": "1.0.5",
+    "version": "1.0.6",
+    "description": "Shared Prettier configuration for TypeScript and React projects",
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "login": "npm login",
-        "publish": "npm publish --access public",
-        "fix": "npm pkg fix"
+        "fix": "npm pkg fix",
+        "publish": "npm run fix && npm publish --access public"
     },
     "keywords": [
         "prettier",
@@ -18,7 +18,6 @@
     ],
     "author": "@uvarovag",
     "license": "MIT",
-    "description": "Shared Prettier configuration for TypeScript and React projects",
     "homepage": "https://github.com/uvarovag/prettier-config/blob/master/README.md",
     "repository": {
         "type": "git",
