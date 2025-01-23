@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "fix": "npm pkg fix",
-        "publish": "npm run fix && npm publish --access public"
+        "deploy": "npm run fix && npm publish --access public"
     },
     "keywords": [
         "prettier",
