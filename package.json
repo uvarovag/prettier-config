@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "fix": "npm pkg fix",
-        "deploy": "npm run fix && npm publish --access public"
+        "deploy": "npm run fix && npm publish"
     },
     "keywords": [
         "prettier",
@@ -22,6 +22,9 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/uvarovag/prettier-config.git"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "peerDependencies": {
         "prettier": "^3.4.1"
