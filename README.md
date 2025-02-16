@@ -21,5 +21,5 @@ npm install --save-dev @uvarovag/prettier-config prettier
 ### Step 2: Format your code
 
 ```bash
-npx prettier --write '**/*.{ts,tsx,js,json,css,html,md}'
+prettier --write '**/*.{ts,tsx,js,json,css,html,md}'
 ```
