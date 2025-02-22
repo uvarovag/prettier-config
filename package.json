@@ -1,12 +1,12 @@
 {
     "name": "@uvarovag/prettier-config",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Shared Prettier configuration for TypeScript and React projects",
     "main": "index.js",
     "type": "module",
     "scripts": {
         "fix": "npm pkg fix",
-        "deploy": "npm run fix && npm publish"
+        "deploy": "npm publish"
     },
     "keywords": [
         "prettier",

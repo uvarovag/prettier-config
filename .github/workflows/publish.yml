@@ -1,0 +1,19 @@
+name: 🚀 Deploy to npm
+
+on:
+    push:
+        tags:
+            - 'v*'
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: 📥 Checkout repository
+              uses: actions/checkout@v4
+
+            - name: 🚀 Deploy to npm
+              run: npm run deploy
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
